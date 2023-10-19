@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="centro.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temperaturas</title>
+
+
+   
+       
+    <style>
+        body{
+            background-image: url("paisagem.jpg");background-size: auto;
+        }
+    </style>
+</head>
+<body>
+
+
+    <h1>Conversão de temperatura</h1>
+    <input type="number" id="campo"><br>
+    <input type="radio" name="t" id="cf">Celsius para Fahrenheit</input><br>
+    <input type="radio" name="t" id="fc">Fahrenheit para Celsius</input><br>
+    <input type="radio" name="t" id="ck">Celsius para Kelvin</input><br>
+    <input type="radio" name="t" id="kc">Kelvin para Celsius</input><br>
+    <input type="radio" name="t" id="kf">Kelvin para Fahrenheit</input><br>
+    <input type="radio" name="t" id="fk">Fahrenheit para Kelvin</input><br><br>
+<button onclick="converte()">Converter</button>
+<p id="resultado">Resultado</p><br>
+
+
+<button onclick="sobreMim()">Sobre mim!</button>
+<button onclick="eu()">Sobre mim!</button>
+
+
+</body>
+</html>
+<script>
+    function sobreMim(){
+    window.location.href="link.html"
+    }
+    function eu(){
+    window.location.href="eu.html"
+    }
+</script>
+
+
